@@ -6,6 +6,26 @@ import (
 	"log"
 )
 
+// // Error function
+// func main() {
+// 	// Set properties of the predefined Logger, including
+// 	// the log entry prefix and a flag to disable printing
+// 	// the time, source file and line number.
+// 	log.SetPrefix("greeting: ")
+// 	log.SetFlags(0)
+
+// 	// Request a greeting message
+// 	message, err := greetings.Hello("")
+
+// 	// If an error was returned, print it to the console and
+// 	// exit the program
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+
+// 	fmt.Println(message)
+// }
+
 func main() {
 	// Set properties of the predefined Logger, including
 	// the log entry prefix and a flag to disable printing
@@ -19,7 +39,7 @@ func main() {
 	// Request a greeting message
 	// Get a greeting message and print it.
 	message, err := greetings.Hellos(names)
-	// if an error was returne, print it to the console and
+	// if an error was return, print it to the console and
 	// exit the program
 	if err != nil {
 		log.Fatal(err)
